@@ -2,11 +2,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   background-color: #272527;
-  margin: 10px;
-}
-
-frameset {
-  position: center;
+  margin: 30px;
 }
 
 @font-face {
@@ -14,7 +10,7 @@ frameset {
   src: url(Angelface.woff);
 }
 
-a {
+a.c1 {
   border: 1px black;
   text-decoration: none;
   display: inline-block;
@@ -26,26 +22,31 @@ a {
   box-shadow: 5px 10px;
 }
 
-a:link, a:visited, a:focus {
+a.c1:link, a.c1:visited, a.c1:focus {
   background: white;
 }
 
-a:hover {     
+a.c1:hover {     
   background: orange;
 }
 
-a:active {
+a.c1:active {
   background: red;
   color: white;
 }
 
-h2 {
-  color: white;
-  font-size: 50px;
+a.c2:link, a.c2:visited, a.c2:focus {
+  color: blue;
+  text-decoration: none;
 }
 
-.fstyle {
-  font-family: myFont;
+a.c2:hover {     
+  color: orange;
+}
+
+h2 {
+  font-size: 50px;
+  text-align: center;
 }
 
 h3 {
@@ -53,10 +54,12 @@ h3 {
   font-size: 25px;
 }
 
+.fstyle {
+  font-family: myFont;
+}
+
 .center{
   margin: auto;
-  border: 0px;
-  padding: 10px;
 }
 
 .container {
@@ -71,22 +74,21 @@ h3 {
 .box{
   border: 1px solid white;
   background-color: white;
-  height: 1000px;
-  width: 1000px;
+  height: 500px;
+  width: 800px;
   padding: 10px;
+  margin: auto;
 }
 
-.image1{
-  position: relative;
-  height: auto;
-  max-width: 100%;
+.absolute{
+  position: absolute;
   float: left;
-  margin: 50px;
+  top: 50px;
 }
 
 p {
   text-align: right;
-  font-size: 20px;
+  font-size: 15px;
   float: right;
   position: relative;
   vertical-align: middle;
