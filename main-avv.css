@@ -2,6 +2,8 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   background-color: #272527;
+  background-image: url('bg.jpg');
+  background-size: 100% 100%;
   margin: 30px;
 }
 
@@ -49,6 +51,13 @@ h2 {
   text-align: center;
   font-family: 'Roboto';
   color: white;
+  text-shadow: 5px 5px black;
+}
+
+h2.noshadow {
+  font-size: 35px;
+  text-align: center;
+  font-family: 'Roboto';
 }
 
 h2.cursive {
@@ -62,6 +71,7 @@ h3 {
   color: white;
   font-size: 50px;
   text-align: center;
+  text-shadow: 5px 5px black;
 }
 
 p {
@@ -80,7 +90,7 @@ li{
   display: inline;
   float: left;
   margin: 50px;
-  font-family: Angelface;
+  font-family: 'Angelface';
   color: white;
   font-size: 50px;
 }
@@ -100,6 +110,7 @@ li{
 .mySlides {
   display: none;
   border: 10px solid white;
+  box-shadow: 5px 10px;
 }
 
 .box{
@@ -109,6 +120,7 @@ li{
   width: 800px;
   padding: 10px;
   margin: auto;
+  box-shadow: 5px 10px;
 }
 
 .absolute{
@@ -124,5 +136,6 @@ li{
   bottom: 70px;
   left: 30%;
   margin: auto;
+  text-shadow: 5px 5px black;
 }
 
