@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>PLUG ROOM INTERNET CAFE | HOME</title>
-		<link rel="stylesheet" type="text/css" href="main-avv.css">
-	</head>
+<head>
+	<title>PLUG ROOM INTERNET CAFE</title>
+	<style>
+		.header{
+			display: inline-block;
+			float: left;
+		}
+
+		.mainContent{
+			display: inline-block;
+			float: left;
+			width: 100%;
+		}
+
+		iframe{
+			overflow: hidden;
+		}
+	</style>
+</head>
 	<body>
-		<div class="center">
-		<center>
-		<header class="container">
-		    <div class="logo">
-		      <image src="plug room logo 3.png" height="350px" width="350px"></image>
-		      <nav>
-		        <a href="home.html" target="MainWindow">Home</a>
-		        <a href="#" target="MainWindow">About Us</a>
-		        <a href="services.html" target="MainWindow">Services</a>
-		        <a href="contacts.html" target="MainWindow">Contact Us</a>
-		      </nav>
-		   	</div>
-		   </header>
-		<frameset rows="35%,65%">
-			<frame src="index.html">
-			<frame src="home.html" name="MainWindow">
-		</frameset> 
-	</body>
+		<iframe class="header" src="header.html" scrolling="no" width="100%" height="450" frameborder="0"></iframe>
+		<iframe class="iframe" onload="iResize()" src="home.html" width="100%" height="800" frameborder="0" name="MainWindow" scrolling="no"></iframe>
+</body>
 </html>
