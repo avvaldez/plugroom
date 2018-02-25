@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>PLUG ROOM INTERNET CAFE</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style>
 		.header{
 			display: inline-block;
@@ -19,8 +20,33 @@
 		}
 	</style>
 </head>
-	<body>
+	<body style="margin-top: 0;">
 		<iframe class="header" src="header.html" scrolling="no" width="100%" height="450" frameborder="0"></iframe>
-		<iframe class="iframe" onload="iResize()" src="home.html" width="100%" height="1000" frameborder="0" name="MainWindow" scrolling="no"></iframe>
+		<iframe class="iframe" onload="AdjustIframeHeightOnLoad()" src="home.html" width="100%" height="1000" frameborder="0" name="MainWindow" scrolling="no"></iframe>
+
+		<script type="text/javascript">
+		function AdjustIframeHeightOnLoad() { document.getElementById("form-iframe").style.height = document.getElementById("form-iframe").contentWindow.document.body.scrollHeight + "px"; }
+		function AdjustIframeHeight(i) { document.getElementById("form-iframe").style.height = parseInt(i) + "px"; }
+		</script>
+
+		<script type="text/javascript">
+		  $(document).ready(function () {
+
+		    $(window).resize(function () {
+		      calculateNewScale();
+		    });
+
+		    calculateNewScale(); // if the user go to the page and his window is less than 1920px
+
+		    function calculateNewScale() {
+		      var percentageOn1 = $(window).width() / 1920);
+		      $("body").css({
+		        "-moz-transform": "scale(" + percentageOn1 + ")",
+		        "-webkit-transform": "scale(" + percentageOn1 + ")",
+		        "transform": "scale(" + percentageOn1 + ")"
+		      });
+		    }
+		  });
+		</script>
 </body>
 </html>
