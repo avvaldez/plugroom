@@ -1,0 +1,196 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  background-color: #272527;
+  background-image: url('bg.jpg');
+  background-size: 100% 100%;
+  margin: 30px;
+}
+
+@font-face {
+  font-family: myFont;
+  src: url(Angelface.woff);
+}
+
+a.c1 {
+  border: 1px black;
+  text-decoration: none;
+  display: inline-block;
+  width: 10%;
+  margin-right: 0.625%;
+  text-align: center;
+  line-height: 3;
+  color: black;
+  box-shadow: 5px 10px;
+}
+
+a.c1:link, a.c1:visited, a.c1:focus {
+  background: white;
+}
+
+a.c1:hover {     
+  background: orange;
+}
+
+a.c1:active {
+  background: red;
+  color: white;
+}
+
+a.c2:link, a.c2:visited, a.c2:focus {
+  color: blue;
+  text-decoration: none;
+}
+
+a.c2:hover {     
+  color: orange;
+}
+
+h2 {
+  font-size: 35px;
+  text-align: center;
+  font-family: 'Roboto';
+  color: white;
+  text-shadow: 5px 5px black;
+}
+
+h2.noshadow {
+  font-size: 35px;
+  text-align: center;
+  font-family: 'Roboto';
+}
+
+h2.cursive {
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Angelface';
+  color: white;
+}
+
+h3 {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 5px 5px black;
+}
+
+p {
+  text-align: right;
+  font-size: 15px;
+  float: right;
+  position: relative;
+  vertical-align: middle;
+}
+
+ul{
+  display: inline;
+}
+
+li{
+  display: inline;
+  float: left;
+  margin: 50px;
+  font-family: 'Angelface';
+  color: white;
+  font-size: 50px;
+}
+
+.fstyle {
+  font-family: myFont;
+}
+
+.center{
+  margin: auto;
+}
+
+.container {
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+  border: 10px solid white;
+  box-shadow: 5px 10px;
+}
+
+.box{
+  border: 1px solid white;
+  background-color: white;
+  height: 500px;
+  width: 800px;
+  padding: 10px;
+  margin: auto;
+  box-shadow: 5px 10px;
+}
+
+.absolute{
+  position: absolute;
+  float: left;
+  top: 50px;
+}
+
+.footer{
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  bottom: 70px;
+  left: 30%;
+  margin: auto;
+  text-shadow: 5px 5px black;
+}
+
+.us {
+  position: absolute;
+  top: 35px;
+  left: 245px;
+  color: white;
+  font-family: 'Roboto';
+}
+
+.text {
+  position: absolute;
+  left: 245px;
+  top: 380px;
+  width: 200px;
+  height: 2000px;
+  color: white;
+  font-family: 'Roboto';
+}
+
+textarea {
+  resize: none;
+}
+
+.pic {
+  position: absolute;
+  top: 80px;
+  left: 875px;
+} 
+
+.name {
+  position: absolute;
+  top: 64px;
+  left: 317px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Trebuchet MS';
+}
+
+.table {
+   height: 300px;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  color: white;
+}
+
+.send {
+  position: absolute;
+  top: 130px;
+  left: 3px;
+  font-family: 'Trebuchet MS';
+}
