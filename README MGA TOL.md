@@ -6,4 +6,3 @@ Currently there are 30 Windows 10 units, 15 Wacom Drawing Tablets and workstatio
 
 ***isip nalang kayo ng pwede pang idagdag sa services lol :)
 
-pwede rin ba gagawa ng vexel? or mga posters ganun? haha - erica
