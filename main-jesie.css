@@ -1,0 +1,173 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  background-color: #272527;
+  background-image: url('bg.jpg');
+  background-size: 100vw 100vh;
+  margin: 30px;
+}
+
+@font-face {
+  font-family: myFont;
+  src: url(Angelface.woff);
+}
+
+@font-face {
+  font-family: myFont1;
+  src: url(BPreplay.woff);
+}
+
+a.c1 {
+  border: 1px black;
+  text-decoration: none;
+  display: inline-block;
+  width: 10vw;
+  height: 10vh;
+  margin-right: 0.625%;
+  text-align: center;
+  line-height: 3;
+  color: black;
+  box-shadow: 5px 10px;
+}
+
+a.c1:link, a.c1:visited, a.c1:focus {
+  background: white;
+}
+
+a.c1:hover {
+  background: orange;
+}
+
+a.c1:active {
+  background: red;
+  color: white;
+}
+
+a.c2:link, a.c2:visited, a.c2:focus {
+  color: blue;
+  text-decoration: none;
+}
+
+a.c2:hover {
+  color: orange;
+}
+
+h1 {
+  font-family: 'Roboto';
+  text-align: right;
+}
+
+h2 {
+  font-size: 35px;
+  text-align: center;
+  font-family: 'myFont1';
+  color: white;
+  text-shadow: 0 0 5px #01d8ff;
+}
+
+h2.noshadow {
+  font-size: 35px;
+  text-align: center;
+  font-family: 'Roboto';
+}
+
+h2.cursive {
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Angelface';
+  color: white;
+}
+
+h3 {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 0 0 5px #01d8ff;
+}
+
+p {
+  text-align: right;
+  font-size: 17px;
+  float: right;
+  position: relative;
+  vertical-align: middle;
+}
+
+ul{
+  display: inline;
+}
+
+h4{
+  display: inline;
+  float: left;
+  margin: 8px;
+  font-family: 'Angelface';
+  color: white;
+  font-size: 50px;
+  text-shadow: 0 0 5px #01d8ff;
+}
+
+.cellContainer{
+  width: 25%;
+  float: left;
+}
+
+.social{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.fstyle {
+  font-family: myFont;
+}
+
+.center{
+  margin: auto;
+  position: fixed;
+}
+
+.container {
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+  border: 10px solid white;
+  box-shadow: 5px 10px;
+}
+
+.box{
+  border: 1px solid white;
+  background-color: white;
+  height: 500px;
+  width: 800px;
+  padding: 10px;
+  margin: auto;
+  box-shadow: 5px 10px;
+  position: fixed;
+
+}
+
+.absolute{
+  position: absolute;
+  float: left;
+  top: 50px;
+}
+footer img{
+  width:8vw;
+  height: 13vh;
+}
+
+
+.footer{
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  bottom: 5%;
+  left: 90%;
+  margin: auto;
+  text-shadow: 5px 5px black;
+  display: inline;
+  float: left;
+}
